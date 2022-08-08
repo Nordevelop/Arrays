@@ -15,7 +15,8 @@ public class Main{
     }
     for(int n:arr) //for each
       System.out.println(n);
-    System.out.println
+    System.out.println("La suma de los elementos del Array arr: " + sum);
+    system.out.println("El producto de los elementos del Array arr: " + prod);
     
       }
 }

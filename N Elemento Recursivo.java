@@ -9,6 +9,13 @@ public class Main {
      *Author Nordevelop
      */
      int [] arr = {1,3,4,5,7,8,9,11,17};
-     i
+     int poselemdado = poselementorecursivo(arr, elementoBuscar,0);
+     int poselemdado = 11;
+     System.out.println("elemento a buscar: "); 
+     System.out.println(elementoBuscar);
+     System.out.println("elemento encontrado en el subindice: "); 
+     System.out.println(poselemdado);
+      
       }
+   
 }

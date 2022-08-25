@@ -15,7 +15,20 @@ public class Main {
      System.out.println(elementoBuscar);
      System.out.println("elemento encontrado en el subindice: "); 
      System.out.println(poselemdado);
+      public static int poselementorecursivo (poselemdado(int [] arr, (elementoBuscar, int indice){
+         if (indice == arr.length || arr[indice] == elementoBuscar){
+             if (indice == arr.length){
+                return -1;
+             }
+             else {
+                return indice; 
+             }
+             else{
+                return poselementorecursivo(arr,elementoBuscar, indice+1)
+             }
+            
+         }
       
-      }
+    }
    
 }

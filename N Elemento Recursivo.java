@@ -19,10 +19,8 @@ public class Main {
          if (indice == arr.length || arr[indice] == elementoBuscar){
              if (indice == arr.length)
                 return -1;
-             
              else 
                 return indice; 
-             
              else
                 return poselementorecursivo(arr,elementoBuscar, indice+1)
           } //fin if (indice == arr.length || arr[indice] == elementoBuscar)

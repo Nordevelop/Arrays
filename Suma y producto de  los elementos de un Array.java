@@ -3,9 +3,8 @@ import java.util.Arrays;
 public class Main{
   public static void main(string[] args) {
     /*Author Nordevelop
-		 * 
-		 * <>[]
-		 */
+     * Suma y producto de los elementos de un Array
+     */
     int []arr = new int []{10,5,3,1};
     int sum = 0;
     int prod = 1;

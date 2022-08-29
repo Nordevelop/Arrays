@@ -17,18 +17,18 @@ public class Main {
      System.out.println(poselemdado);
       public static int poselementorecursivo (poselemdado(int [] arr, (elementoBuscar, int indice){
          if (indice == arr.length || arr[indice] == elementoBuscar){
-             if (indice == arr.length){
+             if (indice == arr.length)
                 return -1;
-             }
-             else {
+             
+             else 
                 return indice; 
-             }
-             else{
+             
+             else
                 return poselementorecursivo(arr,elementoBuscar, indice+1)
-             }
-            
-         }
+          } //fin if (indice == arr.length || arr[indice] == elementoBuscar)
       
-    }
+       }//fin metodo poselementorecursivo (poselemdado(int [] arr, (elementoBuscar, int indice
    
-}
+   }// fin  main (String[]args)
+
+}//fin Clase Main               
